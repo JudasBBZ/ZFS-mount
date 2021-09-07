@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo modprobe zfs
+sudo zpool import hdd-pool
+sudo zpool import ssd-pool
