@@ -1,4 +1,4 @@
 #!/bin/bash
 sudo modprobe zfs
-sudo zpool import hdd-pool
-sudo zpool import ssd-pool
+sudo zpool import -d /dev/disk/by-id hdd-pool
+sudo zpool import -d /dev/disk/by-id ssd-pool
